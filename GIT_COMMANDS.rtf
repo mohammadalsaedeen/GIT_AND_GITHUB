@@ -1,0 +1,218 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2708
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cspthree\c100000\c100000\c100000;\cspthree\c0\c0\c0;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs28 \cf2 \cb3 \CocoaLigature0 Touch file.path\
+Cd\
+Cd ..\
+Mkdir\
+Pwd\
+\
+\
+\
+\
+Git clone project_link\
+Git init\
+git status////to see which file in staging\
+git add Osama.rtf/////to add file for tracking and staging\
+git reset head Osama.rtf////to delete file from staging\
+Git add * //////to add everything\
+git commit -m "Created The Main Project Structure" \
+git branch\
+git remote -v\
+Git push origin main\
+git pull origin\
+\
+\
+Git config \'97list\
+Git config -l\
+Git help config\
+\
+\
+git config --global user.email\
+Git config \'97-global user.name \'93MOHAMMAD KHALED\'94\
+Git config -l\
+git config --global \'97unset user.name\
+Git config \'97global \'97edit\
+\
+\
+ssh-keygen -t rsa -b 4096 -C "cpe11@ymail.com"\
+cat /Users/mohammadalsaedeen/.ssh/id_rsa.pub\
+RIZQlelas@#14112020\
+ssh -T git@github.com\
+git pull origin main --rebase  \
+git push -f -u origin main\
+\
+Git remote remove origin\
+\
+git remote add origin git@github.com:mohammadalsaedeen/Course.git\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+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\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+//////////////Important commands\
+Git status\
+Git add .\
+Git commit -m \'93add\'94\
+Git remote remove origin\
+Git remote add origin https://github.com/mohammadalsaedeen/repos.git\
+Git pull origin main \'97rebase /////for bringing remote to local\
+Git push -f -u origin main /////for bringing local to remote\
+\
+\
+\
+\
+\
+Git clone https://github.com/mohammadalsaedeen/repos.git ////// for bringing the remote to a specific link in your device\
+\
+\
+\
+\
+\
+\
+\
+/////Alias\
+Git config \'97global alias.st status\
+git config --global alias.st ////to show what is this command\
+Git config --global alias.br branch\
+Git config --global alias.cm \'93commit -m\'94\
+Git config --global --edit\
+\
+\
+\
+\
+\
+\
+////////////Branching\
+Git branch ////show all the branches\
+Git branch scroll ////make new branch called scroll\
+Git checkout scroll ////go to the scroll branch\
+Git branch -d scroll ///to delete scroll branch\
+Git checkout -b Dev-Feature ///create branch and go to it in the same command\
+Git branch -m Development ////rename the branch you are to a new name \'93Development\'94\
+To make merge go to the main branch and from their you type this command \'93git merge Development\'94\
+Git branch -d Development\
+Git checkout -b Scroll\
+Touch main.css\
+Git add .\
+Git checkout main\
+Git branch -d Scroll\
+In this case go to the GitHub website and do pull request and finally delete the new branch Scroll\
+\
+\
+\
+\
+\
+\
+//////////////////////Mastering Stash\
+Touch about.html\
+Git status\
+Echo \'93Hello World\'94 > about_readme.txt\
+Git status\
+Git add .\
+Git stash//////saved workdirectory\
+Git status\
+Ls /////There is no added files to the directory now\
+Touch main.js\
+Git add main.js\
+Git commit -m \'93Main.js added\'94\
+Git status\
+Git push origin main /////we have error so we need to pull all the modification on remote to local first\
+Git pull origin main\
+Git push origin main\
+Git stash list\
+Git stash pop\
+Git stash list\
+Git commit -m \'93Added files from stash\'94\
+Git push origin main\
+//////////////// Stash part 2\
+Touch m.txt\
+Git status\
+Git add m.txt\
+Git stash list//////nothing appeared now\
+Git stash////save working area\
+Git stash list////it will show the saved working area\
+Touch x.txt\
+Git add x.txt\
+Git stash list\
+Git stash\
+Git stash list\
+Touch osx.txt\
+Git add osx.txt\
+Git stash save \'93osx Text\'94 /////to give message for stash\
+Git stash list ////the message appear on pop 0\
+Ls\
+Git stash pop////bring the last file\
+Git stash list\
+Git status\
+Git stash save \'93osx Text again\'94\
+Git stash apply////the difference between apply and pop that apply does not change on the stack just bring the last item and keep the stack as is.\
+Git commit -m \'93osx Test\'94\
+Git push origin main\
+Git stash pop stash@\{2\}\
+Git status\
+Git stash drop stash@\{1\}\
+Git stash show\
+Git status\
+Git stash list\
+Touch elz.doc\
+Git add elz.doc\
+Git stash\
+Git stash show stash@\{0\}\
+Git stash clear\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+//////////////Restoring\
+Touch new.txt\
+Git status\
+Git add new.txt\
+Git status\
+Git restore --staged new.txt\
+Git status\
+Code new.txt\
+Git restore --staged *\
+Git clean -n\
+Git clean -f\
+\
+\
+\
+\
+\
+\
+\
+\
+//////////////Resetting\
+Touch good.txt\
+}
